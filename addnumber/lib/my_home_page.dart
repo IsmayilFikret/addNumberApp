@@ -27,16 +27,15 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Scaffold _MyProjeScaffold(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        shadowColor: Colors.black,
-        centerTitle: true,
-        title: const Text(
-          'Change Number App',
-          style: TextStyle(fontSize: 24),
+        appBar: AppBar(
+          shadowColor: Colors.black,
+          centerTitle: true,
+          title: const Text(
+            'Change Number App',
+            style: TextStyle(fontSize: 24),
+          ),
         ),
-      ),
-      body: _MyColumn(context),
-    );
+        body: _MyColumn(context));
   }
 
   Column _MyColumn(BuildContext context) {
